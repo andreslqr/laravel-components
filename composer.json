@@ -1,0 +1,28 @@
+{
+    "name": "andreslqr/components",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Andreslqr\\Components\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "andreslqr",
+            "email": "me@andreslopez.com.mx"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Andreslqr\\Components\\ComponentsServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.11"
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
